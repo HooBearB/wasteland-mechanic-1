@@ -1,0 +1,425 @@
+{
+    "origin": "Vanilla WM1 JSON",
+    "description": "Default content for WM1.",
+    "author": "Flint",
+
+    "econ_eng": {
+        "name": "Economy engine",
+        "type": "engine",
+        "weight": 250,
+        "condition": 300,
+        "hp": 65,
+        "temp": 200,
+        "maxtemp": 280
+    },
+    "reg_eng": {
+        "name": "Regular engine",
+        "type": "engine",
+        "weight": 425,
+        "condition": 500,
+        "hp": 110,
+        "temp": 230,
+        "maxtemp": 300
+    },
+    "tuned_eng": {
+        "name": "Tuned engine",
+        "type": "engine",
+        "weight": 440,
+        "condition": 750,
+        "hp": 140,
+        "temp": 215,
+        "maxtemp": 290
+    },
+    "sport_eng": {
+        "name": "Sport engine",
+        "type": "engine",
+        "weight": 500,
+        "condition": 800,
+        "hp": 160,
+        "temp": 220,
+        "maxtemp": 280
+    },
+    "heavy_eng": {
+        "name": "Heavy-duty engine",
+        "type": "engine",
+        "weight": 600,
+        "condition": 1000,
+        "hp": 150,
+        "temp": 250,
+        "maxtemp": 270
+    },
+
+
+
+    "low_cap_tank": {
+        "name": "Low capacity tank",
+        "type": "fueltank",
+        "weight": 3,
+        "condition": 100,
+        "capacity": 10
+    },
+    "reg_tank": {
+        "name": "Regular tank",
+        "type": "fueltank",
+        "weight": 5,
+        "condition": 150,
+        "capacity": 20
+    },
+    "high_cap_tank": {
+        "name": "High capacity tank",
+        "type": "fueltank",
+        "weight": 10,
+        "condition": 250,
+        "capacity": 40
+    },
+    "reinforced_tank": {
+        "name": "Reinforced tank",
+        "type": "fueltank",
+        "weight": 20,
+        "condition": 500,
+        "capacity": 25
+    },
+
+
+
+    "econ_rad": {
+        "name": "Economy radiator",
+        "type": "radiator",
+        "weight": 7.5,
+        "condition": 150,
+        "temp": 190
+    },
+    "reg_rad": {
+        "name": "Regular radiator",
+        "type": "radiator",
+        "weight": 8,
+        "condition": 175,
+        "temp": 225
+    },
+    "performance_rad": {
+        "name": "Performance radiator",
+        "type": "radiator",
+        "weight": 10,
+        "condition": 180,
+        "temp": 260
+    },
+    "heavy_rad": {
+        "name": "Heavy-duty radiator",
+        "type": "radiator",
+        "weight": 8,
+        "condition": 175,
+        "temp": 225
+    },
+
+
+
+    "econ_bat": {
+        "name": "Economy battery",
+        "type": "battery",
+        "weight": 30,
+        "condition": 100,
+        "charge": 200
+    },
+    "reg_bat": {
+        "name": "Regular battery",
+        "type": "battery",
+        "weight": 40,
+        "condition": 200,
+        "charge": 500
+    },
+    "high_bat": {
+        "name": "High charge battery",
+        "type": "battery",
+        "weight": 40,
+        "condition": 200,
+        "charge": 750
+    },
+    "heavy_bat": {
+        "name": "Heavy-duty battery",
+        "type": "battery",
+        "weight": 45,
+        "condition":  400,
+        "charge": 500
+    },
+
+
+
+    "reg_auto_trans": {
+        "name": "Regular automatic transmission",
+        "type": "transmission",
+        "weight": 250,
+        "condition": 300,
+        "shifttype": "auto",
+        "shiftspeed": 1
+    },
+    "tuned_auto_trans": {
+        "name": "Tuned automatic transmission",
+        "type": "transmission",
+        "weight": 275,
+        "condition": 400,
+        "shifttype": "auto",
+        "shiftspeed": 0.75
+    },
+    "sport_auto_trans": {
+        "name": "Sport automatic transmission",
+        "type": "transmission",
+        "weight": 300,
+        "condition": 450,
+        "shifttype": "auto",
+        "shiftspeed": 0.5
+    },
+    "heavy_auto_trans": {
+        "name": "Heavy-duty automatic transmission",
+        "type": "transmission",
+        "weight": 350,
+        "condition": 700,
+        "shifttype": "auto",
+        "shiftspeed": 0.6
+    },
+    "reg_man_trans": {
+        "name": "Regular manual transmission",
+        "type": "transmission",
+        "weight": 225,
+        "condition": 275,
+        "shifttype": "manual",
+        "shiftspeed": 1.25
+    },
+    "tuned_man_trans": {
+        "name": "Tuned manual transmission",
+        "type": "transmission",
+        "weight": 250,
+        "condition": 325,
+        "shifttype": "manual",
+        "shiftspeed": 0.75
+    },
+    "sport_man_trans": {
+        "name": "Sport manual transmission",
+        "type": "transmission",
+        "weight": 300,
+        "condition": 375,
+        "shifttype": "manual",
+        "shiftspeed": 0.5
+    },
+    "heavy_man_trans": {
+        "name": "Heavy-duty manual transmission",
+        "type": "transmission",
+        "weight": 400,
+        "condition": 800,
+        "shifttype": "manual",
+        "shiftspeed": 0.75
+    },
+
+
+
+    "reg_susp": {
+        "name": "Regular suspension",
+        "type": "suspension",
+        "weight": 5,
+        "condition": 100,
+        "damageresist": 0.9
+    },
+    "offroad_susp": {
+        "name": "Offroad suspension",
+        "type": "suspension",
+        "weight": 6,
+        "condition": 150,
+        "damageresist": 0.5
+    },
+    "tuned_susp": {
+        "name": "Tuned suspension",
+        "type": "suspension",
+        "weight": 6,
+        "condition": 100,
+        "damageresist": 0.75
+    },
+    "sport_susp": {
+        "name": "Sport suspension",
+        "type": "suspension",
+        "weight": 5,
+        "condition": 150,
+        "damageresist": 0.5
+    },
+    "heavy_susp": {
+        "name": "Heavy-duty suspension",
+        "type": "suspension",
+        "weight": 7.5,
+        "condition": 300,
+        "damageresist": 0.8
+    },
+    "low_susp": {
+        "name": "Lowrider suspension",
+        "type": "suspension",
+        "weight": 4,
+        "condition": 100,
+        "damageresist": 1.5
+    },
+
+
+
+    "econ_tire": {
+        "name": "Economy tire",
+        "type": "tire",
+        "weight": 15,
+        "condition": 75,
+        "grip": 0.9
+    },
+    "reg_tire": {
+        "name": "Regular tire",
+        "type": "tire",
+        "weight": 20,
+        "condition": 100,
+        "grip": 1
+    },
+    "sport_tire": {
+        "name": "Sport tire",
+        "type": "tire",
+        "weight": 21,
+        "condition": 125,
+        "grip": 1.25
+    },
+    "heavy_tire": {
+        "name": "Heavy-duty tire",
+        "type": "tire",
+        "weight": 25,
+        "condition": 250,
+        "grip": 1.25
+    },
+    "offroad_tire": {
+        "name": "Offroad tire",
+        "type": "tire",
+        "weight": 25,
+        "condition": 250,
+        "grip": 1.5
+    },
+    "bullet_tire": {
+        "name": "Bullet-proof tire",
+        "type": "tire",
+        "weight": 40,
+        "condition": 750,
+        "grip": 1.25
+    },
+    "drift_tire": {
+        "name": "Drift tire",
+        "type": "tire",
+        "weight": 25,
+        "condition": 150,
+        "grip": 0.5
+    },
+
+
+
+    "reg_headlamp": {
+        "name": "Regular headlamp",
+        "type": "headlight",
+        "weight": 5,
+        "condition": 25,
+        "chargetaken": 3,
+        "illumination": 300
+    },
+    "xenon_headlamp": {
+        "name": "Xenon headlamp",
+        "type": "headlight",
+        "weight": 6,
+        "condition": 30,
+        "chargetaken": 5,
+        "illumination": 500
+    },
+    "emer_headlamp": {
+        "name": "Emergency vehicle headlamp",
+        "type": "headlight",
+        "weight": 7.5,
+        "condition": 100,
+        "chargetaken": 7.5,
+        "illumination": 600
+    },
+    "reinforced_headlamp": {
+        "name": "Reinforced headlamp",
+        "type": "headlight",
+        "weight": 8,
+        "condition": 150,
+        "chargetaken": 2,
+        "illumination": 250
+    },
+
+
+
+    "reg_taillight": {
+        "name": "Regular taillight",
+        "type": "taillight",
+        "weight": 5,
+        "condition": 25,
+        "chargetaken": 1,
+        "illumination": 30
+    },
+    "led_taillight": {
+        "name": "LED taillight",
+        "type": "taillight",
+        "weight": 6,
+        "condition": 30,
+        "chargetaken": 2,
+        "illumination": 50
+    },
+    "emer_taillight": {
+        "name": "Emergency vehicle taillight",
+        "type": "taillight",
+        "weight": 7.5,
+        "condition": 100,
+        "chargetaken": 4,
+        "illumination": 60
+    },
+    "reinforced_taillight": {
+        "name": "Reinforced taillight",
+        "type": "taillight",
+        "weight": 8,
+        "condition": 150,
+        "chargetaken": 1,
+        "illumination": 25
+    },
+
+
+
+    "commuter_radio": {
+        "name": "Commuter radio",
+        "type": "radio",
+        "weight": 15,
+        "condition": 100,
+        "chargetaken": 2,
+        "freqmin": 88,
+        "freqmax": 108,
+        "way": "recv",
+        "rec": ["cassette"]
+    },
+    "modern_radio": {
+        "name": "Modern radio",
+        "type": "radio",
+        "weight": 17.5,
+        "condition": 100,
+        "chargetaken": 3,
+        "freqmin": 88,
+        "freqmax": 108,
+        "way": "recv",
+        "rec": ["cassette", "cd"]
+    },
+    "cb_radio": {
+        "name": "CB radio",
+        "type": "radio",
+        "weight": 20,
+        "condition": 150,
+        "chargetaken": 5,
+        "freqmin": 26,
+        "freqmax": 27.5,
+        "way": "two",
+        "rec": []
+    },
+    "military_radio": {
+        "name": "Military radio",
+        "type": "radio",
+        "weight": 30,
+        "condition": 400,
+        "chargetaken": 7.5,
+        "freqmin": 26,
+        "freqmax": 108,
+        "way": "two",
+        "rec": []
+    }
+}
