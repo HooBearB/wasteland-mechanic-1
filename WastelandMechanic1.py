@@ -56,7 +56,7 @@ def init():
 	time.sleep(1)
 	# Opens loading loop that pulls and reads JSON files, as well as printing the loading screen animation
 	x = 0
-	files = [r'items', r'vehicles', r'media', r'locations', r'scenarios']
+	files = [r'items', r'vehicles', r'media', r'locations', r'stories']
 	fileData = []
 	while x < len(files):
 		print(moose.format.clear)
@@ -86,7 +86,6 @@ def init():
 	if decision == 3:
 		settings()
 
-def startGame():
-	
+
 
 init()

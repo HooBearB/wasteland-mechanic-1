@@ -1,5 +1,16 @@
 {
     "origin": "Vanilla WM1 JSON",
     "description": "Default content for WM1.",
-    "author": "Flint"
-}
+    "author": "Flint",
+
+    "list": ["garage"],
+
+    "garage": {
+        "name": "Garage",
+        "loot": false,
+        "blueprint": {
+            "line1": ""
+        },
+        "display": []
+    }
+} 

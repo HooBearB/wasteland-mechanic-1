@@ -8,7 +8,7 @@ assignees: HooBearB
 ---
 
 **Describe the bug:**
-You can give me a really quick description of what might be wrong
+You can give me a really quick description of what might be wrong.
 
 **To reproduce:**
 If you can, give exact steps of how to reach this error again. Some bugs may be entirely situational, however.
